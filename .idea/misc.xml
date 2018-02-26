@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/szquart/pom.xml" />
+        <option value="$PROJECT_DIR$/rest-oauth2/pom.xml" />
       </list>
     </option>
   </component>
