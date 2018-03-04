@@ -13,6 +13,7 @@
         <module>rest-oauth2</module>
         <module>segapattern</module>
         <module>generation</module>
+        <module>oauth2</module>
     </modules>
 
 </project>
