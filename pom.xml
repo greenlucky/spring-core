@@ -19,8 +19,6 @@
         <module>szquart</module>
         <module>segapattern</module>
         <module>generation</module>
-        <module>reacmic-account</module>
-        <module>reacmic-customer</module>
-        <module>common</module>
+        <module>reactive-microservices</module>
     </modules>
 </project>

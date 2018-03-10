@@ -1,5 +1,6 @@
 package com.devopslam.remicro.controller;
 
+
 import com.devopslam.remicro.persistence.model.Account;
 import com.devopslam.remicro.persistence.repository.AccountRepository;
 import org.reactivestreams.Publisher;
@@ -32,14 +33,13 @@ public class AccountController {
 
     @GetMapping("/account/{id}")
     public Mono<Account> findById(@PathVariable("id") String id) {
-        return repository.findById(id)
-                .map(a -> new Account(a.getId(), a.getNumber(), a.getCustomerId(), a.getAmount()));
+        return repository.findById(id);
     }
 
     @PostMapping("/account")
     public Mono<Account> create(@RequestBody Publisher<Account> account) {
         return repository.save(Mono.from(account)
                 .map(a -> new Account(a.getNumber(), a.getCustomerId(), a.getAmount()))
-                .map(a -> new Account(a.getId(), a.getCustomerId(), a.getNumber(), a.getAmount())));
+                .map(a -> new Account(a.getId(), a.getNumber(), a.getCustomerId(), a.getAmount())));
     }
 }

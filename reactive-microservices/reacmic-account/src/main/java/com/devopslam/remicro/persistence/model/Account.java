@@ -9,27 +9,27 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document
 @Setter
 @Getter
-public class Account {
-
-    @Id
-    private String id;
-    private String number;
-    private String customerId;
-    private int amount;
+public class Account extends com.devopslam.services.common.Account {
 
     public Account() {
     }
 
     public Account(String number, String customerId, int amount) {
-        this.number = number;
-        this.customerId = customerId;
-        this.amount = amount;
+        super(number, customerId, amount);
     }
 
     public Account(String id, String number, String customerId, int amount) {
-        this.id = id;
-        this.number = number;
-        this.customerId = customerId;
-        this.amount = amount;
+        super(id, number, customerId, amount);
+    }
+
+    @Override
+    public String getId() {
+        return super.getId();
+    }
+
+    @Id
+    @Override
+    public void setId(String id) {
+        super.setId(id);
     }
 }
