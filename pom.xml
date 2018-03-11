@@ -20,5 +20,6 @@
         <module>segapattern</module>
         <module>generation</module>
         <module>reactive-microservices</module>
+        <module>reactive-tweet</module>
     </modules>
 </project>
