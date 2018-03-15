@@ -9,6 +9,9 @@
         <option value="$PROJECT_DIR$/oauth2/pom.xml" />
         <option value="$PROJECT_DIR$/reacmic-customer/pom.xml" />
         <option value="$PROJECT_DIR$/reactive-tweet/pom.xml" />
+        <option value="$PROJECT_DIR$/central-config-server/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/central-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/central-config-server/config-client/pom.xml" />
       </list>
     </option>
   </component>

@@ -21,5 +21,6 @@
         <module>generation</module>
         <module>reactive-microservices</module>
         <module>reactive-tweet</module>
+        <module>central-config-server</module>
     </modules>
 </project>
