@@ -12,7 +12,14 @@
         <option value="$PROJECT_DIR$/central-config-server/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/central-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/central-config-server/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/central-config-server-v15/config-server-v15/pom.xml" />
+        <option value="$PROJECT_DIR$/central-config-server-v15/config-client-v15/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/central-config-serverv15/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
