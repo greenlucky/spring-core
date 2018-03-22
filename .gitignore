@@ -24,3 +24,14 @@ hs_err_pid*
 target/classes/com/
 target/generated-sources/
 src/test/
+central-config-server-v15/config-client-v15/src/main/resources/static/
+central-config-server-v15/config-client-v15/src/main/resources/templates/
+central-config-server-v15/src/
+reactive-tweet/target/classes/com/
+reactive-tweet/target/generated-sources/
+reactive-tweet/target/generated-test-sources/
+reactive-tweet/target/test-classes/
+src/
+target/generated-test-sources/
+target/test-classes/
+zuul-filters/

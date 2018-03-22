@@ -23,5 +23,6 @@
         <module>reactive-tweet</module>
         <module>central-config-server</module>
         <module>central-config-server-v15</module>
+        <module>zuul-filters</module>
     </modules>
 </project>
