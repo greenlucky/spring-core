@@ -34,3 +34,5 @@ reactive-tweet/target/test-classes/
 src/
 target/generated-test-sources/
 target/test-classes/
+/zuul-filters/target/
+zuul-filters/
