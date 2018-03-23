@@ -21,17 +21,8 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 .idea/*
-target/classes/com/
-target/generated-sources/
+target/*
 src/test/
-central-config-server-v15/config-client-v15/src/main/resources/static/
-central-config-server-v15/config-client-v15/src/main/resources/templates/
-central-config-server-v15/src/
-reactive-tweet/target/classes/com/
-reactive-tweet/target/generated-sources/
-reactive-tweet/target/generated-test-sources/
-reactive-tweet/target/test-classes/
+reactive-tweet/target/*
+/zuul-filters/target/*
 src/
-target/generated-test-sources/
-target/test-classes/
-/zuul-filters/target/
