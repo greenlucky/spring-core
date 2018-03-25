@@ -15,11 +15,13 @@
         <option value="$PROJECT_DIR$/central-config-server-v15/config-server-v15/pom.xml" />
         <option value="$PROJECT_DIR$/central-config-server-v15/config-client-v15/pom.xml" />
         <option value="$PROJECT_DIR$/zuul-filters/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-filters2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/central-config-serverv15/pom.xml" />
+        <option value="$PROJECT_DIR$/zuulfilters2/pom.xml" />
       </set>
     </option>
   </component>

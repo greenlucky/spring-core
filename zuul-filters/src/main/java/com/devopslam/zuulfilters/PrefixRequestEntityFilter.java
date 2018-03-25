@@ -36,7 +36,7 @@ public class PrefixRequestEntityFilter extends ZuulFilter {
     public Object run() throws ZuulException {
         try {
             RequestContext context = RequestContext.getCurrentContext();
-            InputStream inputStream = (InputStream) context.get("requestEntity");
+            InputStream inputStream = context.getResponseDataStream();
             if(inputStream == null) {
                 inputStream = context.getRequest().getInputStream();
             }
@@ -60,6 +60,7 @@ public class PrefixRequestEntityFilter extends ZuulFilter {
                 }
             });
         }catch (IOException e) {
+
             rethrowRuntimeException(e);
         }
         return null;

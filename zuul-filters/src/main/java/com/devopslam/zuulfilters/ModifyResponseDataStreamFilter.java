@@ -36,7 +36,7 @@ public class ModifyResponseDataStreamFilter extends ZuulFilter {
             RequestContext context = RequestContext.getCurrentContext();
             InputStream stream = context.getResponseDataStream();
             String body = StreamUtils.copyToString(stream, Charset.forName("UTF-8"));
-            body = "Modified via setReponseDataStream(): " + body;
+            body = "Modified via setResponseDataStream(): " + body;
             context.setResponseDataStream(new ByteArrayInputStream(body.getBytes("UTF-8")));
         } catch (IOException e) {
             rethrowRuntimeException(e);
