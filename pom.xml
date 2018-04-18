@@ -24,6 +24,8 @@
         <module>central-config-server</module>
         <module>central-config-server-v15</module>
         <module>zuul-filters</module>
-        <module>zuulfilters2</module>
+        <module>zuul-filters2</module>
+        <module>cloudstream</module>
+        <module>registration</module>
     </modules>
 </project>

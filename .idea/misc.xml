@@ -16,11 +16,19 @@
         <option value="$PROJECT_DIR$/central-config-server-v15/config-client-v15/pom.xml" />
         <option value="$PROJECT_DIR$/zuul-filters/pom.xml" />
         <option value="$PROJECT_DIR$/zuul-filters2/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudstream/order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudstream/product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudstream/shipment-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudstream/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudstream/payment-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudstream/zipkin-service/pom.xml" />
+        <option value="$PROJECT_DIR$/registration/password-strength-rule/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/central-config-serverv15/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudstream/pom.xml" />
         <option value="$PROJECT_DIR$/zuulfilters2/pom.xml" />
       </set>
     </option>
