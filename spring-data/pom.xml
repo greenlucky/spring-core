@@ -10,11 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lamdevops</groupId>
-    <artifactId>registration</artifactId>
-    <modules>
-        <module>password-strength-rule</module>
-        <module>register-process</module>
-    </modules>
+    <artifactId>spring-data</artifactId>
 
+    <modules>
+        <module>rest-query-jpa-spec</module>
+    </modules>
 
 </project>

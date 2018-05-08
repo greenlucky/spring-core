@@ -27,5 +27,7 @@
         <module>zuul-filters2</module>
         <module>cloudstream</module>
         <module>registration</module>
+        <module>spring-data</module>
+        <module>cloudsteam-event-driven</module>
     </modules>
 </project>

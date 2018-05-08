@@ -10,10 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lamdevops</groupId>
-    <artifactId>registration</artifactId>
+    <artifactId>cloudsteam-event-driven</artifactId>
+
     <modules>
-        <module>password-strength-rule</module>
-        <module>register-process</module>
+        <module>eureka-service</module>
+        <module>licensing-service</module>
+        <module>organization-service</module>
     </modules>
 
 
