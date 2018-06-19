@@ -29,5 +29,7 @@
         <module>registration</module>
         <module>spring-data</module>
         <module>cloudsteam-event-driven</module>
+        <module>gc-pratice</module>
+        <module>bdd-with-cucumber</module>
     </modules>
 </project>

@@ -60,7 +60,7 @@ public class TweetController {
 
     @GetMapping(value = "/stream/tweets", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
     public Flux<Tweet> streamAll() {
-        return repository.findAll().delayElements(Duration.of(1, ChronoUnit.SECONDS));
+        return repository.findAll().delayElements(Duration.of(0, ChronoUnit.SECONDS));
     }
 
     @PostMapping("/tweets")
