@@ -26,6 +26,7 @@
         <option value="$PROJECT_DIR$/spring-data/rest-query-jpa-spec/pom.xml" />
         <option value="$PROJECT_DIR$/cloudsteam-event-driven/organization-service/pom.xml" />
         <option value="$PROJECT_DIR$/cloudsteam-event-driven/eureka-service/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-profiles/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
