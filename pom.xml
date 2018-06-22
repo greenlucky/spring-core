@@ -31,5 +31,6 @@
         <module>cloudsteam-event-driven</module>
         <module>gc-pratice</module>
         <module>bdd-with-cucumber</module>
+        <module>convertcsv</module>
     </modules>
 </project>
