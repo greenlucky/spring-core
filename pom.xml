@@ -32,5 +32,6 @@
         <module>gc-pratice</module>
         <module>bdd-with-cucumber</module>
         <module>reactor-core</module>
+        <module>convertcsv</module>
     </modules>
 </project>
