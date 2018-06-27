@@ -27,10 +27,13 @@
         <option value="$PROJECT_DIR$/cloudsteam-event-driven/organization-service/pom.xml" />
         <option value="$PROJECT_DIR$/cloudsteam-event-driven/eureka-service/pom.xml" />
         <option value="$PROJECT_DIR$/spring-profiles/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-v2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/client-config/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/central-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/central-config-serverv15/pom.xml" />
         <option value="$PROJECT_DIR$/cloudstream/pom.xml" />
         <option value="$PROJECT_DIR$/zuulfilters2/pom.xml" />
