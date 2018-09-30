@@ -21,7 +21,6 @@
         <module>generation</module>
         <module>reactive-microservices</module>
         <module>reactive-tweet</module>
-        <module>central-config-server</module>
         <module>central-config-server-v15</module>
         <module>zuul-filters</module>
         <module>zuul-filters2</module>
@@ -34,5 +33,6 @@
         <module>reactor-core</module>
         <module>convertcsv</module>
         <module>spring-cloud-config</module>
+        <module>application-event</module>
     </modules>
 </project>
